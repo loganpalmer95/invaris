@@ -2,7 +2,7 @@ import React from 'react';
 import { palette } from '../theme/palette';
 
 export const Logo = ({ size = 28 }) => (
-  <div className="flex items-center gap-3">
+  <div className="flex items-center gap-1">
     <svg
       width={size}
       height={size}
