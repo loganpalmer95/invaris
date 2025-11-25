@@ -13,8 +13,8 @@ export const Services = () => {
   ];
 
   return (
-    <Section id="services" className="py-10 md:py-16">
-      <div className="grid md:grid-cols-3 gap-6">
+    <Section id="services" className="py-12 md:py-16">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((card, i) => (
           <div key={i} className="rounded-2xl p-6 border bg-white/5 hover:bg-white/10 transition-colors"
                style={{ borderColor: "rgba(243,242,237,0.08)" }}>

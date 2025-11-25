@@ -13,8 +13,8 @@ export const Process = () => {
   return (
     <Section id="process" className="py-12 md:py-16">
       <div className="rounded-3xl p-8 md:p-10 border bg-white/5" style={{ borderColor: "rgba(243,242,237,0.08)" }}>
-        <h2 className="text-2xl md:text-3xl font-semibold">A clear path to outcomes</h2>
-        <div className="grid md:grid-cols-4 gap-6 mt-6">
+        <h2 className="text-2xl md:text-2xl lg:text-3xl font-semibold">A clear path to outcomes</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
           {steps.map((s) => (
             <div key={s.n} className="rounded-2xl p-5 border" style={{ borderColor: "rgba(243,242,237,0.08)" }}>
               <span className="text-xs tracking-[0.28em]" style={{ color: palette.gold }}>{s.n}</span>
