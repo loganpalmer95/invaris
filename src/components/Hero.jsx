@@ -23,11 +23,11 @@ export const Hero = () => {
               Start a project
             </a>
             <a
-              href="#work"
+              href="#process"
               className="inline-flex items-center rounded-2xl px-5 py-3 font-medium border"
               style={{ borderColor: "rgba(243,242,237,0.25)" }}
             >
-              View case studies
+              View our process
             </a>
           </div>
           <div className="mt-8 flex items-center gap-6 text-sm text-white/70">
